@@ -1,0 +1,126 @@
+*
+{
+	box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.contanier
+{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: #131419;
+}
+.calculator_box
+{
+	width:290px;
+	margin:0 auto;
+	background:#3F475B;
+	height:330px;
+	padding:15px;
+    border-radius:10px;	
+    position:relative;	 
+	box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+	5px 5px 15px rgba(0, 0, 0, 0.5);
+	transition: 0.3s;
+	box-sizing: border-box;
+	background-color: #131419;
+}
+
+.screen-div,.number_button{
+	  padding:0;
+	  margin:0;
+}
+
+.screen
+{
+    width:182px;
+	height:45px;
+	list-style:none;
+    margin-left:8px;
+	margin-bottom:8px;
+	border-radius:4px;
+	padding-top: 10px;
+	padding-right: 2px;
+	text-align:right;
+	font-size: 1.3rem;
+	font-weight:bold;
+	font-family: 'Ubuntu', sans-serif;
+    overflow:hidden;
+	color: #03a9f4;
+    background: #131419;
+	box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+	inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+
+.clear
+{
+	width:60px;
+	padding:10px 17px;
+	position:absolute;
+	border-radius:3px;
+	left:215px;
+	top:18px;
+	font-weight: 900;
+	font-size: 18px;
+	cursor:pointer;
+	text-align:center;
+	color: #03a9f4;
+    background: #131419;
+	box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.1),
+	2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+.clear:hover
+{
+	background: #131419;
+	color: #03a9f4;
+	box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+	inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+
+}
+
+
+.number_button li
+{
+	list-style:none;
+	float:left;
+    width:55px;
+	margin:9px 5px;
+	padding:10px;
+	border-radius:5px;
+	background: #131419;
+	color: #ff0047;
+	text-align:center;
+	font-size: 1.5rem;
+	font-weight: 900;
+	transition:.2s;
+	cursor:pointer;
+	box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.1),
+	2px 2px 6px rgba(0, 0, 0, 0.8);
+}
+.number_button li:hover
+{
+	background: #131419;
+	color: #ff0047;
+	box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
+	inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+}
+
+
+#equals
+{
+	background:#ff0047;
+	color:white;
+}
+
+#equals:hover
+{
+	background: #ff0047;
+	color: white;
+}
